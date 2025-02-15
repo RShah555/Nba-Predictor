@@ -1,3 +1,4 @@
+import requests #jig's first commit 
 from flask import Flask, request, jsonify
 import pandas as pd
 import numpy as np
@@ -17,3 +18,4 @@ def fetch_nba_data():
     if response.status_code == 200:
         return response.json()
     return None
+
