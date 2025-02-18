@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from nba_api.stats.static import players, teams
 from nba_api.stats.endpoints import playergamelog, commonteamroster
-import altair as alt  # Kept in case you want to add visualizations later
 import time
 
 # Page setup
